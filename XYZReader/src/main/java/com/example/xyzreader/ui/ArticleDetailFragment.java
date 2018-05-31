@@ -242,10 +242,10 @@ public class ArticleDetailFragment extends Fragment implements
                             if (bitmap != null) {
                                 //Palette p = Palette.generate(bitmap, 12);
                                 Palette p = Palette.from(bitmap).generate();
-                                mMutedColor = p.getDarkMutedColor(0xFF333333);
+                                //mMutedColor = p.getDarkMutedColor(0xFF333333);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
-                                mRootView.findViewById(R.id.meta_bar)
-                                        .setBackgroundColor(mMutedColor);
+                                //mRootView.findViewById(R.id.meta_bar)
+                                //        .setBackgroundColor(mMutedColor);
                                 updateStatusBar();
                             }
                         }
