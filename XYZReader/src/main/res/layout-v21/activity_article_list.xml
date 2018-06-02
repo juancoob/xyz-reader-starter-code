@@ -14,11 +14,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
-            android:scrollbarStyle="outsideOverlay"
-            android:paddingTop="@dimen/recyclerview_padding_top"
+            android:paddingBottom="@dimen/recyclerview_padding_bottom"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
-            android:paddingBottom="@dimen/recyclerview_padding_bottom" />
+            android:paddingTop="@dimen/recyclerview_padding_top"
+            android:scrollbarStyle="outsideOverlay" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
     <android.support.design.widget.AppBarLayout
@@ -26,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/frame_layout_height"
         android:background="?colorPrimary"
+        android:elevation="@dimen/appbar_elevation"
         android:gravity="bottom">
 
         <android.support.v7.widget.Toolbar
