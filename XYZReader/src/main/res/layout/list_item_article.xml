@@ -32,9 +32,9 @@
             android:ellipsize="end"
             android:maxLines="4"
             android:paddingBottom="@dimen/min_padding"
-            android:paddingLeft="@dimen/default_padding"
-            android:paddingRight="@dimen/default_padding"
-            android:paddingTop="@dimen/default_padding"
+            android:paddingLeft="@dimen/tv_default_padding"
+            android:paddingRight="@dimen/tv_default_padding"
+            android:paddingTop="@dimen/tv_default_padding"
             android:textColor="@color/primary_text_color"
             tools:text="Title" />
 
@@ -45,9 +45,9 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            android:paddingBottom="@dimen/default_padding"
-            android:paddingLeft="@dimen/default_padding"
-            android:paddingRight="@dimen/default_padding"
+            android:paddingBottom="@dimen/tv_default_padding"
+            android:paddingLeft="@dimen/tv_default_padding"
+            android:paddingRight="@dimen/tv_default_padding"
             android:textColor="@color/secondary_text_color"
             tools:text="Subtitle" />
     </LinearLayout>
