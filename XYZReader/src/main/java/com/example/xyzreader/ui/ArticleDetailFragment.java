@@ -34,6 +34,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
+import com.squareup.picasso.Picasso;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
@@ -240,9 +241,11 @@ public class ArticleDetailFragment extends Fragment implements
                         public void onResponse(ImageLoader.ImageContainer imageContainer, boolean b) {
                             Bitmap bitmap = imageContainer.getBitmap();
                             if (bitmap != null) {
-                                mPhotoView.setImageBitmap(imageContainer.getBitmap());
+                                //mPhotoView.setImageBitmap(imageContainer.getBitmap());
+                                Picasso.get().load(imageContainer.getRequestUrl()).into(mPhotoView);
                                 updateStatusBar();
                             }
+
                         }
 
                         @Override
