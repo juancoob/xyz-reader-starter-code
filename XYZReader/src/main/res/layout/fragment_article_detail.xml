@@ -74,7 +74,7 @@
                         style="?android:attr/textAppearanceSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/amiko"
+                        android:fontFamily="serif"
                         android:textColor="@color/secondary_text_color"
                         android:textSize="@dimen/detail_subtitle_text_size"
                         tools:text="My text" />
